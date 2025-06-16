@@ -1,0 +1,108 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+	<Label item = "CreateSetTitle">
+		<ScreenID>CreateSetTitle</ScreenID>
+		<Font>4</Font>
+		<Location>
+			<X>0</X>
+			<Y>12</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>15</CY>
+		</Size>
+		<Text>Enter a Character Set Name...</Text>
+		<TextColor>
+				<R>0</R>
+				<G>204</G>
+				<B>255</B>
+		</TextColor>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+    <Editbox item="CreateSetEditbox">
+		<ScreenID>CreateSetEditbox</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Location>
+			<X>12</X>
+			<Y>36</Y>
+		</Location>
+		<Size>
+			<CX>232</CX>
+			<CY>24</CY>
+		</Size>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+        <Style_Border>true</Style_Border>
+
+	</Editbox>
+    <Button item="CreateSetButton">
+		<ScreenID>CreateSetButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>32</X>
+			<Y>64</Y>
+		</Location>
+		<Size>
+			<CX>72</CX>
+			<CY>24</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Create Set</Text>
+		<TextColor>
+			<R>255</R>
+			<G>233</G>
+			<B>129</B>
+		</TextColor>
+		<Template>BDT_Normal</Template>
+	</Button>
+    <Button item="CancelCreateButton">
+		<ScreenID>CancelCreateButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>156</X>
+			<Y>64</Y>
+		</Location>
+		<Size>
+			<CX>72</CX>
+			<CY>24</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Cancel</Text>
+		<TextColor>
+			<R>255</R>
+			<G>233</G>
+			<B>129</B>
+		</TextColor>
+		<Template>BDT_Normal</Template>
+	</Button>
+	<Screen item = "CreateSetWnd">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>256</X>
+			<Y>512</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>128</CY>
+		</Size>
+		<Text>Create Character Set</Text>
+		<Style_Transparent>false</Style_Transparent>
+		<DrawTemplate>WDT_Def</DrawTemplate>
+		<Style_Titlebar>true</Style_Titlebar>
+		<Style_Closebox>true</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+        <Pieces>CreateSetTitle</Pieces>
+        <Pieces>CreateSetEditbox</Pieces>
+        <Pieces>CreateSetButton</Pieces>
+		<Pieces>CancelCreateButton</Pieces>
+	</Screen>
+
+</XML>

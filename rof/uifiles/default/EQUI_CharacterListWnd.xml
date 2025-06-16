@@ -361,6 +361,335 @@
     <RightAnchorOffset>222</RightAnchorOffset>
     <Animation>A_GoldMemberIcon</Animation>
   </StaticAnimation>
+
+	<TextureInfo item="play_modes.tga">
+		<Size>
+			<CX>495</CX>
+			<CY>458</CY>
+		</Size>
+	</TextureInfo>
+
+	<TextureInfo item="play_modes_disabled.tga">
+		<Size>
+			<CX>495</CX>
+			<CY>458</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item="play_modes_hovered.tga">
+		<Size>
+			<CX>495</CX>
+			<CY>458</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item="play_modes_disabled_hover.tga">
+		<Size>
+			<CX>495</CX>
+			<CY>458</CY>
+		</Size>
+	</TextureInfo>
+
+  <Ui2DAnimation item="A_SoloPlayModeIcon_Selected">
+		<Cycle>false</Cycle>
+		<Grid>false</Grid>
+		<Frames>
+			<Texture>play_modes.tga</Texture>
+			<Location>
+				<X>10</X>
+				<Y>14</Y>
+			</Location>
+			<Size>
+				<CX>405</CX>
+				<CY>124</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+  <Ui2DAnimation item="A_SoloPlayModeIcon_Hover">
+		<Cycle>false</Cycle>
+		<Grid>false</Grid>
+		<Frames>
+			<Texture>play_modes_hovered.tga</Texture>
+			<Location>
+				<X>10</X>
+				<Y>14</Y>
+			</Location>
+			<Size>
+				<CX>405</CX>
+				<CY>124</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+  <Ui2DAnimation item="A_SoloPlayModeDisabledIcon">
+		<Cycle>false</Cycle>
+		<Grid>false</Grid>
+		<Frames>
+			<Texture>play_modes_disabled.tga</Texture>
+			<Location>
+				<X>10</X>
+				<Y>14</Y>
+			</Location>
+			<Size>
+				<CX>405</CX>
+				<CY>124</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+  <Ui2DAnimation item="A_SoloPlayModeDisabledHoverIcon">
+		<Cycle>false</Cycle>
+		<Grid>false</Grid>
+		<Frames>
+			<Texture>play_modes_disabled_hover.tga</Texture>
+			<Location>
+				<X>10</X>
+				<Y>14</Y>
+			</Location>
+			<Size>
+				<CX>405</CX>
+				<CY>124</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+
+  <Ui2DAnimation item="A_SelfFoundPlayModeIcon_Selected">
+		<Cycle>false</Cycle>
+		<Grid>false</Grid>
+		<Frames>
+			<Texture>play_modes.tga</Texture>
+			<Location>
+				<X>10</X>
+				<Y>151</Y>
+			</Location>
+			<Size>
+				<CX>405</CX>
+				<CY>124</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+  <Ui2DAnimation item="A_SelfFoundPlayModeIcon_Hover">
+		<Cycle>false</Cycle>
+		<Grid>false</Grid>
+		<Frames>
+			<Texture>play_modes_hovered.tga</Texture>
+			<Location>
+				<X>10</X>
+				<Y>151</Y>
+			</Location>
+			<Size>
+				<CX>405</CX>
+				<CY>124</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+  <Ui2DAnimation item="A_SelfFoundPlayModeDisabledIcon">
+		<Cycle>false</Cycle>
+		<Grid>false</Grid>
+		<Frames>
+			<Texture>play_modes_disabled.tga</Texture>
+			<Location>
+				<X>10</X>
+				<Y>151</Y>
+			</Location>
+			<Size>
+				<CX>405</CX>
+				<CY>124</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+  <Ui2DAnimation item="A_SelfFoundPlayModeDisabledHoverIcon">
+		<Cycle>false</Cycle>
+		<Grid>false</Grid>
+		<Frames>
+			<Texture>play_modes_disabled_hover.tga</Texture>
+			<Location>
+				<X>10</X>
+				<Y>151</Y>
+			</Location>
+			<Size>
+				<CX>405</CX>
+				<CY>124</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+  <Ui2DAnimation item="A_HardcorePlayModeIcon_Selected">
+		<Cycle>false</Cycle>
+		<Grid>false</Grid>
+		<Frames>
+			<Texture>play_modes.tga</Texture>
+			<Location>
+				<X>10</X>
+				<Y>288</Y>
+			</Location>
+			<Size>
+				<CX>405</CX>
+				<CY>124</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+  <Ui2DAnimation item="A_HardcorePlayModeIcon_Hover">
+		<Cycle>false</Cycle>
+		<Grid>false</Grid>
+		<Frames>
+			<Texture>play_modes_hovered.tga</Texture>
+			<Location>
+				<X>10</X>
+				<Y>288</Y>
+			</Location>
+			<Size>
+				<CX>405</CX>
+				<CY>124</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+  <Ui2DAnimation item="A_HardcorePlayModeDisabledIcon">
+		<Cycle>false</Cycle>
+		<Grid>false</Grid>
+		<Frames>
+			<Texture>play_modes_disabled.tga</Texture>
+			<Location>
+				<X>10</X>
+				<Y>288</Y>
+			</Location>
+			<Size>
+				<CX>405</CX>
+				<CY>124</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+  <Ui2DAnimation item="A_HardcorePlayModeDisabledHoverIcon">
+		<Cycle>false</Cycle>
+		<Grid>false</Grid>
+		<Frames>
+			<Texture>play_modes_disabled_hover.tga</Texture>
+			<Location>
+				<X>10</X>
+				<Y>288</Y>
+			</Location>
+			<Size>
+				<CX>405</CX>
+				<CY>124</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+  <StaticAnimation item="SoloPlayModeAnim">
+    <ScreenID>SoloPlayModeAnim</ScreenID>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <CX>405</CX>
+        <CY>124</CY>
+      </Size>
+    <Animation>A_SoloPlayModeIcon_Hover</Animation>
+  </StaticAnimation>
+
+<Button item="SoloPlayModeBtn">
+    <ScreenID>SoloPlayModeBtn</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>11</X>
+      <Y>0</Y>
+    </Location>
+    <Size>
+      <CX>200</CX>
+      <CY>67</CY>
+    </Size>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>true</Style_Checkbox>
+    <ButtonDrawTemplate>
+      <Normal>A_HardcorePlayModeIcon_Selected</Normal>      
+      <Flyby>A_HardcorePlayModeIcon_Selected</Flyby>
+      <Pressed>A_SoloPlayModeDisabledIcon</Pressed>      
+      <PressedFlyby>A_SoloPlayModeDisabledIcon</PressedFlyby>
+    </ButtonDrawTemplate>
+    <DecalOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>200</CX>
+      <CY>67</CY>
+    </DecalSize> 
+  </Button>
+
+  <Button item="SelfFoundPlayModeBtn">
+    <ScreenID>SelfFoundPlayModeBtn</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>223</X>
+      <Y>0</Y>
+    </Location>
+    <Size>
+      <CX>200</CX>
+      <CY>67</CY>
+    </Size>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>true</Style_Checkbox>
+    <Text />
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <ButtonDrawTemplate>
+      <Normal>A_SelfFoundPlayModeIcon_Selected</Normal>      
+      <Flyby>A_SelfFoundPlayModeIcon_Selected</Flyby>
+      <Pressed>A_SelfFoundPlayModeDisabledIcon</Pressed>      
+      <PressedFlyby>A_SelfFoundPlayModeDisabledIcon</PressedFlyby>
+    </ButtonDrawTemplate>
+    <DecalOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>200</CX>
+      <CY>67</CY>
+    </DecalSize> 
+  </Button>
+
+  <Button item="HardcorePlayModeBtn">
+    <ScreenID>HardcorePlayModeBtn</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>434</X>
+      <Y>0</Y>
+    </Location>
+    <Size>
+      <CX>200</CX>
+      <CY>67</CY>
+    </Size>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>true</Style_Checkbox>
+    <Text />
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <ButtonDrawTemplate>
+      <Normal>A_HardcorePlayModeIcon_Selected</Normal>      
+      <Flyby>A_HardcorePlayModeIcon_Selected</Flyby>
+      <Pressed>A_HardcorePlayModeDisabledIcon</Pressed>      
+      <PressedFlyby>A_HardcorePlayModeDisabledIcon</PressedFlyby>
+    </ButtonDrawTemplate>
+    <DecalOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>200</CX>
+      <CY>67</CY>
+    </DecalSize> 
+  </Button>
+
   <Listbox item="CLW_Character_List">
     <ScreenID>Character_List</ScreenID>
     <DrawTemplate>WDT_Inner</DrawTemplate>
@@ -682,7 +1011,7 @@
       <Y>2</Y>
     </Location>
     <Size>
-      <CX>233</CX>
+      <CX>295</CX>
       <CY>32</CY>
     </Size>
     <Style_VScroll>false</Style_VScroll>
@@ -707,11 +1036,11 @@
       <PressedFlybyDecal>CreateCharacterIcon</PressedFlybyDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
-      <X>38</X>
-      <Y>6</Y>
+      <X>75</X>
+      <Y>4</Y>
     </DecalOffset>
     <DecalSize>
-      <CX>144</CX>
+      <CX>145</CX>
       <CY>18</CY>
     </DecalSize>
   </Button>
@@ -724,7 +1053,7 @@
       <Y>34</Y>
     </Location>
     <Size>
-      <CX>233</CX>
+      <CX>95</CX>
       <CY>24</CY>
     </Size>
     <Style_VScroll>false</Style_VScroll>
@@ -738,6 +1067,7 @@
       <G>233</G>
       <B>129</B>
     </TextColor>
+    <Font>2</Font>
     <Template>BDT_Normal</Template>
   </Button>
   <Button item="CLW_Tutorial_Button">
@@ -745,11 +1075,11 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>2</X>
-      <Y>60</Y>
+      <X>99</X>
+      <Y>34</Y>
     </Location>
     <Size>
-      <CX>233</CX>
+      <CX>101</CX>
       <CY>24</CY>
     </Size>
     <Style_VScroll>false</Style_VScroll>
@@ -769,11 +1099,11 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>2</X>
-      <Y>86</Y>
+      <X>202</X>
+      <Y>34</Y>
     </Location>
     <Size>
-      <CX>233</CX>
+      <CX>95</CX>
       <CY>24</CY>
     </Size>
     <Style_VScroll>false</Style_VScroll>
@@ -794,11 +1124,11 @@
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>2</X>
-      <Y>112</Y>
+      <Y>60</Y>
     </Location>
     <Size>
-      <CX>233</CX>
-      <CY>32</CY>
+      <CX>295</CX>
+      <CY>42</CY>
     </Size>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
@@ -824,19 +1154,19 @@
       <PressedFlybyDecal>EnterWorldIcon</PressedFlybyDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
-      <X>48</X>
-      <Y>6</Y>
+      <X>85</X>
+      <Y>10</Y>
     </DecalOffset>
     <DecalSize>
       <CX>125</CX>
-      <CY>20</CY>
+      <CY>24</CY>
     </DecalSize>
   </Button>
   <Button item="CLW_ResetUICheckbox">
     <ScreenID>CLW_ResetUICheckbox</ScreenID>
     <Location>
       <X>2</X>
-      <Y>146</Y>
+      <Y>105</Y>
     </Location>
     <Size>
       <CX>160</CX>
@@ -858,26 +1188,17 @@
     <TextAlignCenter>false</TextAlignCenter>
     <TextOffsetX>20</TextOffsetX>
   </Button>
-  <Screen item="CLW_ButtonsScreen">
+<Screen item="CLW_ButtonsScreen">
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>16</LeftAnchorOffset>
-    <TopAnchorOffset>250</TopAnchorOffset>
-    <RightAnchorOffset>257</RightAnchorOffset>
-    <BottomAnchorOffset>82</BottomAnchorOffset>
+    <TopAnchorOffset>506</TopAnchorOffset>
+    <RightAnchorOffset>319</RightAnchorOffset>
+    <BottomAnchorOffset>634</BottomAnchorOffset>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <BottonAnchorToBottom>true</BottonAnchorToBottom>
-    <TopAnchorToTop>false</TopAnchorToTop>
-    <BottomAnchorToTop>false</BottomAnchorToTop>
-    <Location>
-      <X>0</X>
-      <Y>0</Y>
-    </Location>
-    <Size>
-      <CX>224</CX>
-      <CY>224</CY>
-    </Size>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>true</BottomAnchorToTop>
     <Text />
     <Style_Transparent>false</Style_Transparent>
     <DrawTemplate>WDT_Inner</DrawTemplate>
@@ -919,8 +1240,8 @@
     <ScreenID>Rotate_Button</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>0</X>
-      <Y>0</Y>
+      <X>226</X>
+      <Y>100</Y>
     </Location>
     <Size>
       <CX>192</CX>
@@ -942,12 +1263,12 @@
     <ScreenID>Bottom_Screen</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>304</X>
-      <Y>544</Y>
+      <X>78</X>
+      <Y>444</Y>
     </Location>
     <Size>
-      <CX>192</CX>
-      <CY>48</CY>
+      <CX>645</CX>
+      <CY>148</CY>
     </Size>
     <Text />
     <Style_Transparent>true</Style_Transparent>
@@ -958,6 +1279,9 @@
     <Style_Border>false</Style_Border>
     <Style_Sizable>false</Style_Sizable>
     <Pieces>CLW_Rotate_Button</Pieces>
+    <Pieces>SoloPlayModeBtn</Pieces>
+    <Pieces>SelfFoundPlayModeBtn</Pieces>
+    <Pieces>HardcorePlayModeBtn</Pieces>
   </Screen>
   <Label item="CSW_CreateSetTitle">
     <ScreenID>CSW_CreateSetTitle</ScreenID>
@@ -1770,7 +2094,6 @@
       <CX>800</CX>
       <CY>800</CY>
     </Size>
-    <Text />
     <Style_Transparent>true</Style_Transparent>
     <DrawTemplate>WDT_Rounded</DrawTemplate>
     <Style_Titlebar>false</Style_Titlebar>
@@ -1778,6 +2101,7 @@
     <Style_Minimizebox>false</Style_Minimizebox>
     <Style_Border>false</Style_Border>
     <Style_Sizable>true</Style_Sizable>
+    
     <Pieces>CLW_LeftScreen</Pieces>
     <Pieces>CLW_BottomScreen</Pieces>
     <Pieces>CreateSetWnd</Pieces>

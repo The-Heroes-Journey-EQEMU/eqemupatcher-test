@@ -57,7 +57,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>20</X>
+<<<<<<<< HEAD:uifiles/default/EQUI_MapViewWnd.xml
+			<Y>40</Y>
+========
 			<Y>64</Y>
+>>>>>>>> main:uifiles/EQUI_MapViewWnd.xml
 		</Location>
 		<Size>
 			<CX>64</CX>
@@ -269,6 +273,16 @@
 		<ScreenID>MVW_ShowGroupButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
+<<<<<<<< HEAD:uifiles/default/EQUI_MapViewWnd.xml
+		<TopAnchorOffset>0</TopAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<BottomAnchorOffset>22</BottomAnchorOffset>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<LeftAnchorOffset>60</LeftAnchorOffset>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<RightAnchorOffset>0</RightAnchorOffset>
+========
 		<TopAnchorOffset>36</TopAnchorOffset>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
@@ -277,6 +291,7 @@
 		<LeftAnchorOffset>216</LeftAnchorOffset>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<RightAnchorOffset>280</RightAnchorOffset>
+>>>>>>>> main:uifiles/EQUI_MapViewWnd.xml
 		<Style_Checkbox>true</Style_Checkbox>
 		<Text>Group</Text>
 		<TooltipReference>Toggle display of group members in the current zone.</TooltipReference>
@@ -287,6 +302,9 @@
 		</TextColor>
 		<Template>BDT_Normal</Template>
 	</Button>
+<<<<<<<< HEAD:uifiles/default/EQUI_MapViewWnd.xml
+
+========
 	<Label item="MapFiltersLabel">
 		<ScreenID>MapFiltersLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -307,10 +325,21 @@
 			<B>40</B>
 		</TextColor>
 	</Label>
+>>>>>>>> main:uifiles/EQUI_MapViewWnd.xml
 	<Button item="ShowPCsButton">
 		<ScreenID>ShowPCsButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
+<<<<<<<< HEAD:uifiles/default/EQUI_MapViewWnd.xml
+		<TopAnchorOffset>0</TopAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<BottomAnchorOffset>22</BottomAnchorOffset>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<LeftAnchorOffset>130</LeftAnchorOffset>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<RightAnchorOffset>70</RightAnchorOffset>
+========
 		<TopAnchorOffset>36</TopAnchorOffset>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
@@ -319,6 +348,7 @@
 		<LeftAnchorOffset>80</LeftAnchorOffset>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<RightAnchorOffset>144</RightAnchorOffset>
+>>>>>>>> main:uifiles/EQUI_MapViewWnd.xml
 		<Style_Checkbox>true</Style_Checkbox>
 		<Text>Players</Text>
 		<TooltipReference>Toggle display of players in the current zone.</TooltipReference>
@@ -333,6 +363,16 @@
 		<ScreenID>SnowNPCsButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
+<<<<<<<< HEAD:uifiles/default/EQUI_MapViewWnd.xml
+		<TopAnchorOffset>0</TopAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<BottomAnchorOffset>22</BottomAnchorOffset>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<LeftAnchorOffset>200</LeftAnchorOffset>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<RightAnchorOffset>140</RightAnchorOffset>
+========
 		<TopAnchorOffset>36</TopAnchorOffset>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
@@ -341,6 +381,7 @@
 		<LeftAnchorOffset>148</LeftAnchorOffset>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<RightAnchorOffset>212</RightAnchorOffset>
+>>>>>>>> main:uifiles/EQUI_MapViewWnd.xml
 		<Style_Checkbox>true</Style_Checkbox>
 		<Text>NPCs</Text>
 		<TooltipReference>Toggle display of NPC Labels in the current zone.</TooltipReference>
@@ -351,6 +392,8 @@
 		</TextColor>
 		<Template>BDT_Normal</Template>
 	</Button>
+<<<<<<<< HEAD:uifiles/default/EQUI_MapViewWnd.xml
+========
 	<Label item="CustomFiltersLabel">
 		<ScreenID>CustomFiltersLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -390,6 +433,7 @@
 			<B>255</B>
 		</TextColor>
 	</Editbox>
+>>>>>>>> main:uifiles/EQUI_MapViewWnd.xml
 	<Screen item="MVW_MapCurrentZoneScreen">
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -406,7 +450,13 @@
 		<Pieces>MVW_Find</Pieces>
 		<Pieces>MVW_EndFind</Pieces>
 		<Pieces>MVW_FindAutoZoom</Pieces>
+<<<<<<<< HEAD:uifiles/default/EQUI_MapViewWnd.xml
+		<Pieces>MVW_ShowGroupButton</Pieces>
+		<Pieces>ShowPCsButton</Pieces>
+		<Pieces>ShowNPCsButton</Pieces>
+========
 
+>>>>>>>> main:uifiles/EQUI_MapViewWnd.xml
 
 	</Screen>
 	<Button item="MVW_Layer0Button">
@@ -937,7 +987,11 @@
 		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
+<<<<<<<< HEAD:uifiles/default/EQUI_MapViewWnd.xml
+		<TopAnchorOffset>30</TopAnchorOffset>
+========
 		<TopAnchorOffset>60</TopAnchorOffset>
+>>>>>>>> main:uifiles/EQUI_MapViewWnd.xml
 		<BottomAnchorOffset>30</BottomAnchorOffset>
 		<LeftAnchorOffset>5</LeftAnchorOffset>
 		<RightAnchorOffset>70</RightAnchorOffset>
@@ -950,7 +1004,11 @@
 		<ScreenID>MapPiece</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
+<<<<<<<< HEAD:uifiles/default/EQUI_MapViewWnd.xml
+		<TopAnchorOffset>35</TopAnchorOffset>
+========
 		<TopAnchorOffset>65</TopAnchorOffset>
+>>>>>>>> main:uifiles/EQUI_MapViewWnd.xml
 		<BottomAnchorOffset>32</BottomAnchorOffset>
 		<LeftAnchorOffset>10</LeftAnchorOffset>
 		<RightAnchorOffset>72</RightAnchorOffset>
@@ -1191,6 +1249,8 @@
 		<Pieces>Screen:MVW_MapToolBar</Pieces>
 		<Pieces>Screen:MVW_MapSearchScreen</Pieces>
 		<Pieces>Screen:MVW_MapCurrentZoneScreen</Pieces>
+<<<<<<<< HEAD:uifiles/default/EQUI_MapViewWnd.xml
+========
 		<Pieces>ShowPCsButton</Pieces>
 		<Pieces>MVW_ShowGroupButton</Pieces>
 
@@ -1198,6 +1258,7 @@
 		<Pieces>MapFiltersLabel</Pieces>
 		<Pieces>CustomFiltersLabel</Pieces>
 		<Pieces>CustomFilterEditbox</Pieces>
+>>>>>>>> main:uifiles/EQUI_MapViewWnd.xml
 	</Page>		
 	<Screen item="MVW_AtlasRenderArea">
 		<ScreenID>MVW_AtlasRenderArea</ScreenID>
