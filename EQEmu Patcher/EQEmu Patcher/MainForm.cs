@@ -564,20 +564,20 @@ namespace EQEmu_Patcher
                 }
 
 
-            string url = "https://patch.heroesjourneyemu.com/rof/"  + entry.name.Replace("\\", "/");
-            string backupUrl = filelist.downloadprefix + entry.name.Replace("\\", "/");
+                string url = filelist.downloadprefix + entry.name.Replace("\\", "/");
 
-            string resp = await DownloadFile(cts, url, entry.name);
-            if (resp != "")
-            {
-                resp = await DownloadFile(cts, backupUrl, entry.name);
-                if (resp == "404")
+                string resp = await DownloadFile(cts, url, entry.name);
+                if (resp != "")
                 {
-                    StatusLibrary.Log($"Failed to download {entry.name} ({generateSize(entry.size)}) from {url} and {filelist.downloadprefix}, 404 error (website may be down?)");
+                    if (resp == "404")
+                    {
+                        StatusLibrary.Log($"Failed to download {entry.name} ({generateSize(entry.size)}) from {url}, 404 error (website may be down?)");
+                        return;
+                    }
+                    StatusLibrary.Log($"Failed to download {entry.name} ({generateSize(entry.size)}) from {url}: {resp}");
                     return;
                 }
-            }
-            StatusLibrary.Log($"{entry.name} ({generateSize(entry.size)})");
+                StatusLibrary.Log($"{entry.name} ({generateSize(entry.size)})");
 
                 currentBytes += entry.size;
                 patchedBytes += entry.size;
