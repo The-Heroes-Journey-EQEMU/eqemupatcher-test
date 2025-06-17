@@ -1498,7 +1498,7 @@
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorOffset>8</LeftAnchorOffset>
     <TopAnchorOffset>8</TopAnchorOffset>
-    <RightAnchorOffset>238</RightAnchorOffset>
+    <RightAnchorOffset>342</RightAnchorOffset>
     <BottomAnchorOffset>460</BottomAnchorOffset>
     <Style_Border>true</Style_Border>
     <Style_VScroll>true</Style_VScroll>
@@ -1520,10 +1520,32 @@
       <Heading>Classes</Heading>
     </Columns>
     <Columns>
-      <Width>20</Width>
-      <Heading>#</Heading>
+      <Width>30</Width>
+      <Heading>Sets</Heading>
+      <NoWrap>false</NoWrap>
       <AlignCenter>true</AlignCenter>
     </Columns>
+    <Columns>
+      <Width>24</Width>
+      <Heading>. S</Heading>
+    </Columns>
+    <Columns>
+      <Width>2</Width>
+      <Heading></Heading>
+    </Columns>
+    <Columns>
+      <Width>24</Width>
+      <Heading>SF</Heading>
+    </Columns>
+    <Columns>
+      <Width>2</Width>
+      <Heading></Heading>
+    </Columns>
+    <Columns>
+      <Width>24</Width>
+      <Heading>HC-</Heading>
+    </Columns>
+
   </Listbox>
   <Listbox item="MSW_AssignedSetsListbox">
     <ScreenID>MSW_AssignedSetsListbox</ScreenID>
@@ -1533,7 +1555,7 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>248</LeftAnchorOffset>
+    <LeftAnchorOffset>344</LeftAnchorOffset>
     <TopAnchorOffset>28</TopAnchorOffset>
     <RightAnchorOffset>8</RightAnchorOffset>
     <BottomAnchorOffset>220</BottomAnchorOffset>
@@ -1545,7 +1567,7 @@
       <Heading />
     </Columns>
     <Columns>
-      <Width>100</Width>
+      <Width>150</Width>
       <Heading>Character Set</Heading>
     </Columns>
     <Columns>
@@ -1561,7 +1583,7 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>248</LeftAnchorOffset>
+    <LeftAnchorOffset>344</LeftAnchorOffset>
     <TopAnchorOffset>236</TopAnchorOffset>
     <RightAnchorOffset>8</RightAnchorOffset>
     <BottomAnchorOffset>442</BottomAnchorOffset>
@@ -1573,7 +1595,7 @@
       <Heading />
     </Columns>
     <Columns>
-      <Width>100</Width>
+      <Width>150</Width>
       <Heading>Character Set</Heading>
     </Columns>
     <Columns>
@@ -1644,9 +1666,30 @@
       <Heading>Classes</Heading>
     </Columns>
     <Columns>
-      <Width>20</Width>
-      <Heading>#</Heading>
+      <Width>30</Width>
+      <Heading>Sets</Heading>
+      <NoWrap>false</NoWrap>
       <AlignCenter>true</AlignCenter>
+    </Columns>
+    <Columns>
+      <Width>24</Width>
+      <Heading>. S</Heading>
+    </Columns>
+    <Columns>
+      <Width>2</Width>
+      <Heading></Heading>
+    </Columns>
+    <Columns>
+      <Width>24</Width>
+      <Heading>SF</Heading>
+    </Columns>
+    <Columns>
+      <Width>2</Width>
+      <Heading></Heading>
+    </Columns>
+    <Columns>
+      <Width>24</Width>
+      <Heading>HC-</Heading>
     </Columns>
   </Listbox>
   <Listbox item="MSW_UnassignedCharactersListbox">
@@ -1681,20 +1724,41 @@
       <Heading>Classes</Heading>
     </Columns>
     <Columns>
-      <Width>20</Width>
-      <Heading>#</Heading>
+      <Width>30</Width>
+      <Heading>Sets</Heading>
+      <NoWrap>false</NoWrap>
       <AlignCenter>true</AlignCenter>
     </Columns>
+    <Columns>
+      <Width>24</Width>
+      <Heading>. S</Heading>
+    </Columns>
+    <Columns>
+      <Width>2</Width>
+      <Heading></Heading>
+    </Columns>
+    <Columns>
+      <Width>24</Width>
+      <Heading>SF</Heading>
+    </Columns>
+    <Columns>
+      <Width>2</Width>
+      <Heading></Heading>
+    </Columns>
+    <Columns>
+      <Width>24</Width>
+      <Heading>HC-</Heading>
+    </Columns>
   </Listbox>
-  <Label item="MSW_AssignedToSetLabel">
-    <ScreenID>MSW_AssignedToSetLabel</ScreenID>
+  <Label item="MSW_AssignedToSetBCLabel">
+    <ScreenID>MSW_AssignedToSetBCLabel</ScreenID>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
-    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>250</LeftAnchorOffset>
+    <LeftAnchorOffset>258</LeftAnchorOffset>
     <TopAnchorOffset>12</TopAnchorOffset>
     <RightAnchorOffset>8</RightAnchorOffset>
     <BottomAnchorOffset>0</BottomAnchorOffset>
@@ -1708,15 +1772,60 @@
     <AlignCenter>true</AlignCenter>
     <AlignLeft>false</AlignLeft>
   </Label>
-  <Label item="MSW_AvailableToAssignLabel">
-    <ScreenID>MSW_AvailableToAssignLabel</ScreenID>
+  <Label item="MSW_AvailableToAssignBCLabel">
+    <ScreenID>MSW_AvailableToAssignBCLabel</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <LeftAnchorOffset>258</LeftAnchorOffset>
+    <TopAnchorOffset>220</TopAnchorOffset>
+    <RightAnchorOffset>8</RightAnchorOffset>
+    <BottomAnchorOffset>0</BottomAnchorOffset>
+    <Text>Available for Assignment</Text>
+    <TextColor>
+      <R>255</R>
+      <G>233</G>
+      <B>129</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignLeft>false</AlignLeft>
+  </Label>
+
+  <Label item="MSW_AssignedToSetBSLabel">
+    <ScreenID>MSW_AssignedToSetBSLabel</ScreenID>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>250</LeftAnchorOffset>
+    <LeftAnchorOffset>248</LeftAnchorOffset>
+    <TopAnchorOffset>12</TopAnchorOffset>
+    <RightAnchorOffset>8</RightAnchorOffset>
+    <BottomAnchorOffset>0</BottomAnchorOffset>
+    <Text>Assigned To Set</Text>
+    <TextColor>
+      <R>255</R>
+      <G>233</G>
+      <B>129</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignLeft>false</AlignLeft>
+  </Label>
+  <Label item="MSW_AvailableToAssignBSLabel">
+    <ScreenID>MSW_AvailableToAssignBSLabel</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <LeftAnchorOffset>248</LeftAnchorOffset>
     <TopAnchorOffset>220</TopAnchorOffset>
     <RightAnchorOffset>8</RightAnchorOffset>
     <BottomAnchorOffset>0</BottomAnchorOffset>
@@ -1835,52 +1944,6 @@
 		</DecalSize>
   </Button>
 
-  <Label item="MSW_DefaultSetLabel">
-    <ScreenID>MSW_DefaultSetLabel</ScreenID>
-    <RelativePosition>true</RelativePosition>
-    <AutoStretch>true</AutoStretch>
-    <TopAnchorToTop>false</TopAnchorToTop>
-    <BottomAnchorToTop>false</BottomAnchorToTop>
-    <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>10</LeftAnchorOffset>
-    <TopAnchorOffset>23</TopAnchorOffset>
-    <RightAnchorOffset>4</RightAnchorOffset>
-    <BottomAnchorOffset>7</BottomAnchorOffset>
-    <Text>Default Set on Login:</Text>
-    <TextColor>
-      <R>255</R>
-      <G>233</G>
-      <B>129</B>
-    </TextColor>
-    <NoWrap>true</NoWrap>
-    <AlignCenter>false</AlignCenter>
-    <AlignLeft>true</AlignLeft>
-  </Label>
-  <Combobox item="MSW_DefaultSetCombobox">
-    <ScreenID>MSW_DefaultSetCombobox</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
-    <RelativePosition>true</RelativePosition>
-    <AutoStretch>true</AutoStretch>
-    <TopAnchorToTop>false</TopAnchorToTop>
-    <BottomAnchorToTop>false</BottomAnchorToTop>
-    <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <RightAnchorToLeft>true</RightAnchorToLeft>
-    <LeftAnchorOffset>126</LeftAnchorOffset>
-    <TopAnchorOffset>24</TopAnchorOffset>
-    <RightAnchorOffset>226</RightAnchorOffset>
-    <BottomAnchorOffset>4</BottomAnchorOffset>
-    <ListHeight>500</ListHeight>
-    <Text>1</Text>
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <Button>BDT_Combo</Button>
-    <Style_Border>true</Style_Border>
-  </Combobox>
-
   <Button item="MSW_AssignCharacterBtn">
     <ScreenID>MSW_AssignCharacterBtn</ScreenID>
     <AutoStretch>true</AutoStretch>
@@ -1888,9 +1951,9 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <LeftAnchorOffset>260</LeftAnchorOffset>
+    <LeftAnchorOffset>312</LeftAnchorOffset>
     <TopAnchorOffset>445</TopAnchorOffset>
-    <RightAnchorOffset>360</RightAnchorOffset>
+    <RightAnchorOffset>412</RightAnchorOffset>
     <BottomAnchorOffset>465</BottomAnchorOffset>
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
@@ -1909,9 +1972,9 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <LeftAnchorOffset>380</LeftAnchorOffset>
+    <LeftAnchorOffset>444</LeftAnchorOffset>
     <TopAnchorOffset>445</TopAnchorOffset>
-    <RightAnchorOffset>480</RightAnchorOffset>
+    <RightAnchorOffset>544</RightAnchorOffset>
     <BottomAnchorOffset>465</BottomAnchorOffset>
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
@@ -1932,9 +1995,9 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <LeftAnchorOffset>260</LeftAnchorOffset>
+    <LeftAnchorOffset>364</LeftAnchorOffset>
     <TopAnchorOffset>445</TopAnchorOffset>
-    <RightAnchorOffset>360</RightAnchorOffset>
+    <RightAnchorOffset>464</RightAnchorOffset>
     <BottomAnchorOffset>465</BottomAnchorOffset>
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
@@ -1953,9 +2016,9 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <LeftAnchorOffset>380</LeftAnchorOffset>
+    <LeftAnchorOffset>490</LeftAnchorOffset>
     <TopAnchorOffset>445</TopAnchorOffset>
-    <RightAnchorOffset>480</RightAnchorOffset>
+    <RightAnchorOffset>590</RightAnchorOffset>
     <BottomAnchorOffset>465</BottomAnchorOffset>
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
@@ -1977,7 +2040,7 @@
       <Y>256</Y>
     </Location>
     <Size>
-      <CX>512</CX>
+      <CX>624</CX>
       <CY>546</CY>
     </Size>
     <Text>Manage Character Sets</Text>
@@ -2032,9 +2095,9 @@
 		</TabTextActiveColor>
 		<Style_Sizable>true</Style_Sizable>
     <Pieces>MSW_CharacterListbox</Pieces>
-    <Pieces>MSW_AssignedToSetLabel</Pieces>
+    <Pieces>MSW_AssignedToSetBCLabel</Pieces>
     <Pieces>MSW_AssignedSetsListbox</Pieces>
-    <Pieces>MSW_AvailableToAssignLabel</Pieces>
+    <Pieces>MSW_AvailableToAssignBCLabel</Pieces>
     <Pieces>MSW_UnassignedSetsListbox</Pieces>
     <Pieces>MSW_AssignSetBtn</Pieces>
     <Pieces>MSW_RemoveSetBtn</Pieces>
@@ -2076,9 +2139,9 @@
 			<CY>350</CY>
 		</Size>
     <Pieces>MSW_SetsListbox</Pieces>
-    <Pieces>MSW_AssignedToSetLabel</Pieces>
+    <Pieces>MSW_AssignedToSetBSLabel</Pieces>
     <Pieces>MSW_AssignedCharactersListbox</Pieces>
-    <Pieces>MSW_AvailableToAssignLabel</Pieces>
+    <Pieces>MSW_AvailableToAssignBSLabel</Pieces>
     <Pieces>MSW_UnassignedCharactersListbox</Pieces>
     <Pieces>MSW_AssignCharacterBtn</Pieces>
     <Pieces>MSW_RemoveCharacterBtn</Pieces>
